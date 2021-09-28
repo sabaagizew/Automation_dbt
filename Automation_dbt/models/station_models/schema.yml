@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: stage_station
+    columns:
+      - name: station_id
+        tests:
+          - not_null
+
+  - name: stg_median
+    columns:
+      - name: med
+        tests:
+          - accepted_values:
+              values:
+                [
+                  "ID",
+                  "weekday",
+                  "hour",
+                  "minute",
+                  "second",
+                  "flow1",
+                  "ocuppancy1",
+                  "mph1",
+                  "flow2",
+                  "occupancy2",
+                  "mph2",
+                  "flow3",
+                  "ocuppancy3",
+                  "mph3",
+                  "flow4",
+                  "ocuppancy4",
+                  "mph4",
+                  "flow5",
+                  "ocuppancy5",
+                  "mph5",
+                  "total_flow",
+                ]
