@@ -1,23 +1,25 @@
- default: Automation_dbt
-    
+ default: 
+    target:dev
     dev:
        type: postgres
-       threads: 1
+       threads: 4
        host: localhost
        port: 5432
        user: postgres
        pass: POS2021@sabi
        dbname: Automation_dbt
-       schema: station
+       schema: dbt_dev
 
     prod:
-      type: postgres
-      threads: 1
-      host: localhost
-      port: 5432
-      user: postgres
-      pass: POS2021@sabi
-      dbname: Automation_dbt
-      schema: station
+      target: prod
+        prod:
+          type: postgres
+          threads: 1
+          host: localhost
+          port: 5432
+          user: postgres
+          pass: POS2021@sabi
+          dbname: Automation_dbt
+          schema: dbt_prod
  
- target: dev
+ 
