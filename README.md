@@ -21,7 +21,7 @@ Knowledge:
 
 Enterprise-grade data engineering - using Apache and Data bricks tools
 
-Tech Stack used in this project
+Tech Stack used in this project:
 
 Postgres
 
