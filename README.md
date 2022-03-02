@@ -20,3 +20,15 @@ o	Build data pipelines and orchestration workflows
 Knowledge:
 
 Enterprise-grade data engineering - using Apache and Data bricks tools
+
+Tech Stack used in this project
+
+Postgres
+
+MYSQL
+
+Apache Airflow
+
+dbt
+
+Superset
